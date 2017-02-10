@@ -1,0 +1,542 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>RNSIT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<font-Awesome>
+<link href="css/font-awesome.css" rel="stylesheet">
+<font-Awesome>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');
+        }
+    );
+});
+</script>
+</head>
+<body id="mypage">
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container">
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+	        </button>
+	        <a class="navbar-brand" href="index.html">RNSIT</a>
+	    </div>
+	    <navbar-header>
+	    <div class="navbar-collapse collapse" id=" bs-example-navbar-collapse-1" style="height: 1px;">
+	        <ul class="nav navbar-nav">
+		        <li class="dropdown">
+
+		        </li>
+		        <li class="dropdown">
+		        	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list"></i><span>Courses</span></a>
+		        	  <ul class="dropdown-menu">
+			            <li><a href="courses.html">Courses Categories</a></li>
+			            <li><a href="courses.html">Courses list</a></li>
+			            <li><a href="course_detail.html">Courses detail</a></li>
+		              </ul>
+		        </li>
+		        <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar"></i><span>Events</span></a>
+		             <ul class="dropdown-menu">
+			            <li><a href="events.html">Event1</a></li>
+			            <li><a href="events.html">Event2</a></li>
+			            <li><a href="events.html">Event3</a></li>
+		             </ul>
+		        </li>
+
+	    </div>
+	    <div class="clearfix"> </div>
+	  </div>
+	    <!--/.navbar-collapse-->
+</nav>
+<nav class="navbar nav_bottom" role="navigation">
+ <div class="container">
+ <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header nav_2">
+      <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+   </div>
+   <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+        <ul class="nav navbar-nav nav_1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+    		<li class="dropdown mega-dropdown active">
+			    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admissions<span class="caret"></span></a>
+				<div class="dropdown-menu mega-dropdown-menu">
+                    <div class="container-fluid">
+    				    <!-- Tab panes -->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="men">
+                            <ul class="nav-list list-inline">
+                                <li><a href="admission.html"><img src="" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                          </div>
+                          <div class="tab-pane" id="women">
+                            <ul class="nav-list list-inline">
+                                <li><a href="admission.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t2.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t3.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t4.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t5.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t6.jpg" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                         </div>
+                       </div>
+                    </div>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                       <li class="active"><a href="#men" role="tab" data-toggle="tab">School</a></li>
+                       <li><a href="#women" role="tab" data-toggle="tab">College</a></li>
+                   </ul>
+				</div>
+			</li>
+			<li><a href="faculty.html">Faculty</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="terms.html">Terms of use</a></li>
+                <li><a href="shortcodes.html">Shortcodes</a></li>
+                <li><a href="faq.html">Faq</a></li>
+              </ul>
+            </li>
+            <li class="last"><a href="contact.html">Contacts</a></li>
+        </ul>
+     </div><!-- /.navbar-collapse -->
+   </div>
+</nav>
+<!-- banner -->
+	<div class="banner">
+			<!-- banner Slider starts Here -->
+					<script src="js/responsiveslides.min.js"></script>
+					 <script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider3").responsiveSlides({
+							auto: true,
+							pager: true,
+							nav: true,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+
+						});
+					  </script>
+					<!--//End-slider-script -->
+					<div  id="top" class="callbacks_container">
+						<ul class="rslides" id="slider3">
+							<li>
+								<div class="banner-bg">
+									<div class="container">
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg banner-img2">
+									<div class="container">
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg banner-img">
+									<div class="container">
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg">
+									<div class="container">
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg banner-img2">
+									</div>
+								</div>
+							</li>
+
+						</ul>
+		          </div>
+	</div>
+	<!-- //banner -->
+     <div class="grid_1">
+     	<div class="container">
+     		<div class="col-md-4">
+                <div class="news">
+                    <h1>News</h1>
+                    <div class="section-content">
+                        <article>
+                            <figure class="date"><i class="fa fa-file-o"></i>07-25-2015</figure>
+                            <a href="#">News 1</a>
+                        </article>
+                        <article>
+                            <figure class="date"><i class="fa fa-file-o"></i>08-24-2014</figure>
+                            <a href="#">News 2</a>
+                        </article>
+                        <article>
+                            <figure class="date"><i class="fa fa-file-o"></i>08-24-2014</figure>
+                            <a href="#">News 3</a>
+                        </article>
+                        <article>
+                            <figure class="date"><i class="fa fa-file-o"></i>08-24-2014</figure>
+                            <a href="#">News 4</a>
+                        </article>
+
+                    </div><!-- /.section-content -->
+                    <a href="#" class="read-more">All News</a>
+                </div><!-- /.news-small -->
+            </div>
+            <div class="col-md-8 grid_1_right">
+              <h2>Programs</h2>
+		      <div class="but_list">
+		       <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+				<ul id="myTab" class="nav nav-tabs nav-tabs1" role="tablist">
+				  <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Day 1&nbsp;&nbsp;&nbsp;31-08-2016</a></li>
+				  <li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">Day 2&nbsp;&nbsp;&nbsp;01-09-2016</a></li>
+				  <li role="presentation"><a href="#profile1" role="tab" id="profile-tab1" data-toggle="tab" aria-controls="profile1">Day 3&nbsp;&nbsp;&nbsp;05-09-2016</a></li>
+				</ul>
+			<div id="myTabContent" class="tab-content">
+			  <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+			    <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>09:00 - 10:30</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>Room A</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">Lorem Ipsum</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+			    		  <h3><a href="#">Welcoming and introduction</a></h3>
+						  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <a href="#">Read More</a></p>
+						  <img src="" class="img-responsive" alt="img here"/>
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			   </div>
+			   <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>09:00 - 10:30</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>Room A</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">Lorem Ipsum</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+			    		  <h3><a href="#">Welcoming and introduction</a></h3>
+						  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form <a href="#">Read More</a></p>
+						  <img src="" class="img-responsive" alt="img here"/>
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			   </div>
+			  </div>
+			  <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
+			    <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>09:00 - 10:30</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>Room A</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">Lorem Ipsum</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+			    		  <h3><a href="#">Welcoming and introduction</a></h3>
+						  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form <a href="#">Read More</a></p>
+						  <img src="" class="img-responsive" alt="img here"/>
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			   </div>
+			   <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>09:00 - 10:30</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>Room A</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">Lorem Ipsum</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+			    		  <h3><a href="#">Welcoming and introduction</a></h3>
+						  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature <a href="#">Read More</a></p>
+						  <img src="" class="img-responsive" alt="img here"/>
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			   </div>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="profile1" aria-labelledby="profile-tab1">
+			    <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>09:00 - 10:30</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>Room A</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">Lorem Ipsum</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+			    		  <h3><a href="#">Welcoming and introduction</a></h3>
+						  <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings <a href="#">Read More</a></p>
+						  <img src="" class="img-responsive" alt="img hrere"/>
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			   </div>
+			   <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>09:00 - 10:30</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>Room A</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">Lorem Ipsum</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+			    		  <h3><a href="#">Welcoming and introduction</a></h3>
+						  <p>Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur.... <a href="#">Read More</a></p>
+						  <img src="" class="img-responsive" alt="img here"/>
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			    </div>
+			   </div>
+		     </div>
+		    </div>
+		   </div>
+      </div>
+      <div class="clearfix"> </div>
+     </div>
+    </div>
+<hr>
+   <div class="bottom_content">
+   	 <h3>Our Departments</h3>
+     <div class="grid_2">
+     	<div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="http://placehold.it/350x150" class="img-responsive" alt=""/>
+                <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">CSE</a></h4>
+               <p>Some Content</p>
+                <a href="cse.html">
+                    <span><i class="fa fa-chain chain_1"></i>VIEW</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t10.jpg" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">ECE</a></h4>
+               <p>Some text here</p>
+                <a href="ece.html">
+                    <span><i class="fa fa-chain chain_1"></i>VIEW</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="http://placehold.it/350x150" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">EEE</a></h4>
+               <p>text herer</p>
+                <a href="eee.html">
+                    <span><i class="fa fa-chain chain_1"></i>VIEW </span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+     </div>
+     <div class="grid_3">
+     	<div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="http://placehold.it/350x150" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">IS</a></h4>
+               <p>some text here</p>
+                <a href="is.html">
+                    <span><i class="fa fa-chain chain_1"></i>VIEW</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="http://placehold.it/350x150" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">Mech</a></h4>
+               <p>some text herer</p>
+                <a href="mech.html">
+                    <span><i class="fa fa-chain chain_1"></i>VIEW</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="http://placehold.it/350x150" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">EIE</a></h4>
+               <p>Some text here</p>
+                <a href="eie.html">
+                    <span><i class="fa fa-chain chain_1"></i>VIEW</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+     </div>
+    </div>
+    <div class="footer">
+    	<div class="container">
+    		<div class="col-md-6 grid_4">
+    		   <h3>About Us</h3>
+    		   <p>"R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.
+The Murudeshwar Group of Companies headed by Dr. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power & IT services and education.
+The group has contributed significantly to the field of education. Education campus and environment has been provided in the top class to make students a friendly campus to maintain in the list of top AICTE approved engineering colleges in karnataka. A number of educational institutions are run by the R.N.Shetty Trust, with RNSIT one amongst them.
+With a continuous desire to provide quality education to the society, the group has established RNSIT, an institution to nourish and produce the best of engineering talents in the country. RNSIT is one of the top AICTE approved engineering colleges in karnataka."</p>
+    		      <ul class="social-nav icons_2 clearfix">
+                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="facebook"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+                 </ul>
+    		</div>
+    		<div class="col-md-3 grid_4">
+    		   <h3>Contact Us</h3>
+    			<address>
+                    <strong>College Campus</strong>
+                    <br>
+                    <span>R N S Institute of Technology,Rajarajeshwarinagar post,Channasandra, Bangalore - 560098   </span>
+                    <br><br>
+                    <abbr>Telephone : </abbr>+91 80 28611880/1
+                    <br>
+                    <abbr>Email : </abbr> <a href="principal@rnsit.ac.in">principal@rnsit.ac.in</a>
+               </address>
+    		</div>
+    		<div class="col-md-3 grid_4">
+    		   <h3>Working Hours</h3>
+    			 <table class="table_working_hours">
+		        	<tbody>
+		        		<tr class="opened_1">
+							<td class="day_label">monday</td>
+							<td class="day_value">8:30 am - 6.00 pm</td>
+						</tr>
+					    <tr class="opened">
+							<td class="day_label">tuesday</td>
+							<td class="day_value">8:30 am - 6.00 pm</td>
+						</tr>
+					    <tr class="opened">
+							<td class="day_label">wednesday</td>
+							<td class="day_value">8:30 am - 6.00 pm</td>
+						</tr>
+					    <tr class="opened">
+							<td class="day_label">thursday</td>
+							<td class="day_value">8:30 am - 6.00 pm</td>
+						</tr>
+					    <tr class="opened">
+							<td class="day_label">friday</td>
+							<td class="day_value">8:30 am - 3.00 pm</td>
+						</tr>
+					    <tr class="closed">
+							<td class="day_label">saturday</td>
+							<td class="day_value "><span>8:30 am - 3.00 pm</span></td>
+						</tr>
+					    <tr class="closed">
+							<td class="day_label">sunday</td>
+							<td class="day_value "><span>8:30 am - 3.00 pm</span></td>
+						</tr>
+				    </tbody>
+				</table>
+            </div>
+    </div>
+    <footer class="text-center">
+  <a class="up-arrow" href="#mypage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Department of CSE RNSIT</footer>
+<script src="js/jquery.countdown.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
